@@ -116,7 +116,10 @@ html {
 }
 
 .col-1-3{
-    width:33.3333333332%;
+  width:33.3333333332%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .col-1-4{
     width:25%;
@@ -162,8 +165,8 @@ nav{
   display: flex;
   justify-content: baseline;
   align-items: center;
-  padding: 0.35087719298246rem 0 0 0;
-  margin-top: 12px;
+  padding: 0.35087719298246rem 1.3157894736842rem 0 1.3157894736842rem;
+  margin-top: 1.140350877193rem;
   font-size: calc(0.9em + 0.1vw);
 }
 .col-1-7:last-child {
@@ -182,9 +185,51 @@ nav{
 .heat-3{
   background-color: rgb(141, 141, 141);
 }
-.heat-4{
+.heat-4 {
   background-color: rgb(168, 168, 168);
 }
-.heat-5{
+.heat-5 {
   background-color: rgb(195, 195, 195);
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.big-col {
+  height: 42.947368421053rem;
+}
+
+div.col {
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+div.col>div {
+
+  height: 33.33333333%;
+  display: flex; 
+}
+.v-center-mar{
+  margin: auto 0;
+}
+h2.heat-god{
+  width:16.348245614035rem; 
+  height: max-content;
+  text-align: center;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+  font-family: "Manjari", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.00011em;
+  margin-top: 1.7543859649123rem;
+}
+
+.big-white-title{
+  font-family: "Manjari", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  
 }
