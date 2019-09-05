@@ -110,6 +110,8 @@ section {
 }
 
 html {
+  font-family: sans-serif;
+  line-height: 1.15;
   font-size: calc(18px + 0.25vw); 
 }
 
@@ -125,35 +127,48 @@ html {
 .col-1-7{
   width: 14.2857142857%;
   height: max-content;
+  
 }
 nav{
-    height:223.63px;
-    padding: 1em 0; 
-    background: #d33a2c;
-    position: relative;
-    min-height: 6.2375rem; 
+  display: flex;
+  flex-direction: row;
+  height:223.63px;
+  padding: 1em 0; 
+  position: relative;
+  min-height: 6.2375rem; 
 }
 .logo{
-  height: 3.75em;
-  width:100%;
-  background: #d33a2c;
+  display: flex;
+  height: 3.9070175438596em;
+  background: inherit;
+  box-sizing: content-box;
+  padding-top: 1.3157894736842em;
+  margin-left: 1.2864035087719em;
+}
+.heat-2 h1{
+  background: inherit;
+  font-size: 1.5438596491228rem;
+  font-family: "Manjari", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-align:center;
 }
 .heat-god{
   
   background-color: rgb(60, 60, 60);
 }
 .heat-1{
-
+  background-color: rgb(87, 87, 87);
 }
 .heat-2{
-  
+  background-color: rgb(114, 114, 114);
 }
 .heat-3{
-  
+  background-color: rgb(141, 141, 141);
 }
 .heat-4{
-  
+  background-color: rgb(168, 168, 168);
 }
 .heat-5{
-  
+  background-color: rgb(195, 195, 195);
 }
