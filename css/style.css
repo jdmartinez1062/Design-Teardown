@@ -118,10 +118,37 @@ section {
 .col-2-4{
     width:50%;
 }
+.col-1-7{
+  width: 14.2857142857%;
+}
 nav{
-    height: padding: 1em 0; 
+    height:223.63px;
+    padding: 1em 0; 
     background: #d33a2c;
     position: relative;
     min-height: 6.2375rem; 
-    height:223.63px;
+}
+.logo{
+  height: 3.75em;
+  width:235.13px;
+  background: #d33a2c;
+}
+.heat-god{
+  
+  background-color: rgb(60, 60, 60);
+}
+.heat-1{
+
+}
+.heat-2{
+  
+}
+.heat-3{
+  
+}
+.heat-4{
+  
+}
+.heat-5{
+  
 }
