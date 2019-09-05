@@ -159,10 +159,15 @@ nav{
 .heat-2 .last-child {
   border: 3px solid white;
   border-radius: 4px;
-  padding: 4px;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0.35087719298246rem 0 0 0;
+  margin-top: 12px;
+  font-size: calc(0.9em + 0.1vw);
+}
+.col-1-7:last-child {
+  align-items: flex-start;
 }
 .heat-god{
   
