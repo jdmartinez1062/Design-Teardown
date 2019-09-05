@@ -126,8 +126,10 @@ html {
 }
 .col-1-7{
   width: 14.2857142857%;
-  height: max-content;
-  
+  height: 5.2951754385965em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 nav{
   display: flex;
@@ -152,6 +154,15 @@ nav{
   font-weight: 700;
   color: #ffffff;
   text-align:center;
+}
+
+.heat-2 .last-child {
+  border: 3px solid white;
+  border-radius: 4px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .heat-god{
   
