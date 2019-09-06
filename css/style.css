@@ -368,6 +368,7 @@ h2.gray-txt{
   height: 19.059649122807rem;
   
 }
+
 .personweek-container-s > div:last-child{
   margin-left: 20px;
   flex-direction: column;
@@ -382,4 +383,29 @@ h2.gray-txt{
   background: inherit;
   justify-content: center;
   height: 18.45701754386rem;
+}
+
+.curated-articles {
+  justify-content: center;
+}
+
+.curated-title {
+  display: flex;
+  align-self: flex-start;
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 3.947368421052632rem;
+  width: 18.409210526315789rem;
+  height: 3.333333333333333rem;
+}
+
+.curated-txt {
+  align-self: center;
+  justify-self: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.396491228070175rem;
+  font-family: "Manjari", Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
