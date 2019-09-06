@@ -311,9 +311,12 @@ section .latest-art-div {
   justify-content: initial;
 }
 
-.big-a .button-div-parent {
-  justify-content: center;
- 
+.col-1-1 .button-div-parent {
+  
+  width:max-content;
+}
+.col-1-1 .button-div {
+  margin-right: 0;
 }
 .big-a{
   height: 44.642105263158rem;
@@ -337,4 +340,46 @@ section .latest-art-div {
 .person-text {
   height: 11.622837370242215rem;
   width: 66.755190311418685rem;
+}
+
+.person-img-s{
+  transform: scale(0.84) translateX(15%) rotateZ(calc(-1 * (11 * 1deg)));
+  height: 3.5894736842105rem;
+  width: 3.5894736842105rem;
+  margin-left: 2.6315789473684rem;
+}
+.txt-box-img-s{
+  height:6.3157894736842rem;
+  width:30.131140350877rem;
+}
+h2.gray-txt{
+  font-size: calc(18px + 1vw);
+  font-family: "Manjari", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #333333;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  
+}
+.personweek-container-s {
+  
+  justify-content: start;
+  margin-top: 2em;
+  height: 19.059649122807rem;
+  
+}
+.personweek-container-s > div:last-child{
+  margin-left: 20px;
+  flex-direction: column;
+}
+.alig-l > div{
+
+  width:100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 13rem;
+  background: inherit;
+  justify-content: center;
+  height: 18.45701754386rem;
 }
