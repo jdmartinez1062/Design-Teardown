@@ -114,24 +114,30 @@ html {
   line-height: 1.15;
   font-size: calc(18px + 0.25vw);
 }
-.col-1-1{
-  width:100%;
+
+.col-1-1 {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .col-1-3 {
   width: 33.3333333332%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 11.355701754386rem;
 }
 
 .col-1-4 {
   width: 25%;
   height: 30.584649122807rem;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -233,6 +239,17 @@ div.col {
   justify-content: space-evenly;
 }
 
+.alig-l > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 13rem;
+  background: inherit;
+  justify-content: center;
+  height: 18.45701754386rem;
+}
+
 div.col > div {
   background: inherit;
   height: 33.33333333%;
@@ -277,7 +294,7 @@ h2.heat-god {
   width: 100%;
 }
 
-h1.heat-1 {
+h3.heat-1 {
   width: 17.609210526316rem;
   font-size: 2.14857em;
 }
@@ -302,7 +319,7 @@ h1.heat-1 {
   font-family: "Merriweather", Arial, Helvetica, sans-serif;
   font-size: 0.75em;
   font-weight: 100;
-  height:max-content;
+  height: max-content;
   margin-top: 1rem;
 }
 
@@ -312,13 +329,14 @@ section .latest-art-div {
 }
 
 .col-1-1 .button-div-parent {
-  
-  width:max-content;
+  width: max-content;
 }
+
 .col-1-1 .button-div {
   margin-right: 0;
 }
-.big-a{
+
+.big-a {
   height: 44.642105263158rem;
 }
 
@@ -342,47 +360,41 @@ section .latest-art-div {
   width: 66.755190311418685rem;
 }
 
-.person-img-s{
+.person-img-s {
   transform: scale(0.84) translateX(15%) rotateZ(calc(-1 * (11 * 1deg)));
   height: 3.5894736842105rem;
   width: 3.5894736842105rem;
   margin-left: 2.6315789473684rem;
 }
-.txt-box-img-s{
-  height:6.3157894736842rem;
-  width:30.131140350877rem;
+
+.txt-box-img-s {
+  height: 6.3157894736842rem;
+  width: 30.131140350877rem;
 }
-h2.gray-txt{
+
+h2.gray-txt {
   font-size: calc(18px + 1vw);
   font-family: "Manjari", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  color: #333333;
+  color: #333;
   padding-top: 1rem;
   padding-left: 1rem;
-  
 }
+
 .personweek-container-s {
-  
   justify-content: start;
   margin-top: 2em;
   height: 19.059649122807rem;
-  
 }
 
-.personweek-container-s > div:last-child{
+footer > div:last-child {
+  display: flex;
+  width: 100%;
+}
+
+.personweek-container-s > div:last-child {
   margin-left: 20px;
   flex-direction: column;
-}
-.alig-l > div{
-
-  width:100%; 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 13rem;
-  background: inherit;
-  justify-content: center;
-  height: 18.45701754386rem;
 }
 
 .curated-articles {
@@ -391,12 +403,10 @@ h2.gray-txt{
 
 .curated-title {
   display: flex;
-  align-self: flex-start;
-  justify-self: center;
-  align-items: center;
   justify-items: center;
+  align-self: flex-end;
   margin-top: 3.947368421052632rem;
-  width: 18.409210526315789rem;
+  width: 17.289473684211rem;
   height: 3.333333333333333rem;
 }
 
@@ -405,7 +415,86 @@ h2.gray-txt{
   justify-self: center;
   align-content: center;
   justify-content: center;
-  font-size: 1.396491228070175rem;
+  font-size: calc(1.2em + 0.2vw);
   font-family: "Manjari", Arial, Helvetica, sans-serif;
   font-weight: 700;
+  width: max-content;
+}
+
+.link-box {
+  align-self: flex-end;
+  height: 16.830263157895rem;
+  width: 17.289473684211rem;
+}
+
+.big-big-a {
+  height: 51.065789473684rem;
+}
+
+.big-big-a > .big-white-title {
+  width: max-content;
+}
+
+.big-img {
+  height: 25.104385964912rem;
+  width: 23.368421052632rem;
+  margin-top: 140px;
+}
+
+.big-big-a .button-div {
+  width: 20.47850877193rem;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.browse-all {
+  font-weight: 700;
+  width: 77.339035087719rem;
+  height: 1.7543859649123rem;
+  margin-top: 1rem;
+}
+
+.row-1 {
+  margin-top: 2.6315789473684rem;
+  width: 76.666666666667rem;
+  height: 2.3245614035088rem;
+}
+
+.row-2 {
+  width: 77.105263157895rem;
+  height: 2.3245614035088rem;
+}
+
+.row-3 {
+  width: 74.122807017544rem;
+  height: 2.3245614035088rem;
+}
+
+.middle-txt {
+  height: 5.4385964912281rem;
+  width: 500px;
+}
+
+.bot-txt {
+  height: 5.9171052631579rem;
+  width: 23.999561403509rem;
+  margin-bottom: 2rem;
+}
+
+.img-bird {
+  margin-top: 2.5rem;
+  height: 6.9736842105263rem;
+  width: 5.2631578947368rem;
+}
+
+.none {
+  display: none;
 }
