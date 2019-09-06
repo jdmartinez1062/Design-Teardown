@@ -112,37 +112,48 @@ section {
 html {
   font-family: sans-serif;
   line-height: 1.15;
-  font-size: calc(18px + 0.25vw); 
+  font-size: calc(18px + 0.25vw);
 }
 
-.col-1-3{
-  width:33.3333333332%;
+.col-1-3 {
+  width: 33.3333333332%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.col-1-4{
-    width:25%;
+
+.col-1-4 {
+  width: 25%;
+  height: 30.584649122807rem;
+  display: flex;
+  align-items: center;
 }
-.col-2-4{
-    width:50%;
+
+.col-2-4 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.col-1-7{
+
+.col-1-7 {
   width: 14.2857142857%;
   height: 5.2951754385965em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-nav{
+
+nav {
   display: flex;
   flex-direction: row;
-  height:223.63px;
-  padding: 1em 0; 
+  height: 223.63px;
+  padding: 1em 0;
   position: relative;
-  min-height: 6.2375rem; 
+  min-height: 6.2375rem;
 }
-.logo{
+
+.logo {
   display: flex;
   height: 3.9070175438596em;
   background: inherit;
@@ -150,13 +161,14 @@ nav{
   padding-top: 1.3157894736842em;
   margin-left: 1.2864035087719em;
 }
-.heat-2 h1{
+
+.heat-2 h1 {
   background: inherit;
   font-size: 1.5438596491228rem;
   font-family: "Manjari", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  color: #ffffff;
-  text-align:center;
+  color: #fff;
+  text-align: center;
 }
 
 .heat-2 .last-child {
@@ -169,28 +181,35 @@ nav{
   margin-top: 1.140350877193rem;
   font-size: calc(0.9em + 0.1vw);
 }
+
 .col-1-7:last-child {
   align-items: flex-start;
 }
-.heat-god{
-  
+
+.heat-god {
   background-color: rgb(60, 60, 60);
 }
-.heat-1{
+
+.heat-1 {
   background-color: rgb(87, 87, 87);
 }
-.heat-2{
+
+.heat-2 {
   background-color: rgb(114, 114, 114);
 }
-.heat-3{
+
+.heat-3 {
   background-color: rgb(141, 141, 141);
 }
+
 .heat-4 {
   background-color: rgb(168, 168, 168);
 }
+
 .heat-5 {
   background-color: rgb(195, 195, 195);
 }
+
 section {
   display: flex;
   flex-direction: row;
@@ -198,38 +217,83 @@ section {
 
 .big-col {
   height: 42.947368421053rem;
+  background: inherit;
 }
 
 div.col {
-
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
 }
-div.col>div {
 
+div.col > div {
+  background: inherit;
   height: 33.33333333%;
-  display: flex; 
+  display: flex;
 }
-.v-center-mar{
+
+.v-center-mar {
   margin: auto 0;
 }
-h2.heat-god{
-  width:16.348245614035rem; 
+
+h2.heat-god {
+  width: 16.348245614035rem;
   height: max-content;
   text-align: center;
   font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
   font-family: "Manjari", Arial, Helvetica, sans-serif;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 0.00011em;
   margin-top: 1.7543859649123rem;
 }
 
-.big-white-title{
+.big-white-title {
   font-family: "Manjari", Arial, Helvetica, sans-serif;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
-  
+}
+
+.button-div {
+  height: max-content;
+  margin-right: 1.7543859649123rem;
+  margin-top: 1.7543859649123rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 3px solid #fff;
+  border-radius: 4px;
+}
+
+.button-div-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+h1.heat-1 {
+  width: 17.609210526316rem;
+  font-size: 2.14857em;
+}
+
+.black-title-med {
+  font-size: calc(1.2em + 0.2vw);
+  font-family: "Manjari", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: 13.711842105263rem;
+  margin-left: 3.0701754385965rem;
+}
+
+.fle-w {
+  flex-wrap: wrap;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.latest-art {
+  font-family: "Merriweather", Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: 100;
 }
