@@ -318,3 +318,23 @@ section .latest-art-div {
 .big-a{
   height: 44.642105263158rem;
 }
+
+.personweek-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: min-content;
+  width: 100%;
+  padding-top: 3.027681660899654rem;
+}
+
+.person-img {
+  transform: scale(0.84) translateX(15%) rotateZ(calc(-1 * (11 * 1deg)));
+  height: 12.283737024221453rem;
+  width: 12.283737024221453rem;
+}
+
+.person-text {
+  height: 11.622837370242215rem;
+  width: 66.755190311418685rem;
+}
