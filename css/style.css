@@ -315,12 +315,29 @@ h3.heat-1 {
   text-align: center;
 }
 
+.fit {
+  width: max-content;
+  height: max-content;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  background: inherit;
+  display: block;
+}
+
+a.latest-art {
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 0.75em;
+  color: #000;
+}
+
 .latest-art {
   font-family: "Merriweather", Arial, Helvetica, sans-serif;
-  font-size: 0.75em;
   font-weight: 100;
   height: max-content;
-  margin-top: 1rem;
 }
 
 section .latest-art-div {
@@ -372,7 +389,7 @@ section .latest-art-div {
   width: 30.131140350877rem;
 }
 
-h2.gray-txt {
+.gray-txt {
   font-size: calc(18px + 1vw);
   font-family: "Manjari", Arial, Helvetica, sans-serif;
   font-weight: 700;
